@@ -9,6 +9,20 @@ ATTENTION ! : Il faut avoir le compilateur GCC pour compiler le code source!
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+****************************************************************************************
+CONCERNANT LE PROBLEME D'AFFICHAGE DES CODES DE COULEURS AU LIEU D'AFFICHER DES COLEURS:
+
+Pour regler çe probleme suivre les étapes suivante:
+
+Etape 1: Ouvrir le terminale ou le CMD en Mode Administrateur.
+
+Etape 2: Copier cette commande et execute la :
+
+REG ADD HKCU\Console /v VirtualTerminalLevel /t REG_DWORD /d 1
+
+Etape 3: Fermer le terminale ou le CMD et executer le Simulateur.
+*****************************************************************************************
+
 ÉTAPES POUR COMPILER ET EXÉCUTER :
 
 ETAPE 1 : Ouvrir votre terminal :
